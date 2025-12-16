@@ -1,0 +1,8 @@
+{
+  "TITLE": "Prehabilitation Awareness",
+  "DESCRIPTION": "This application provides information to prepare patients before surgery.",
+  "BUTTON": {
+    "START": "Get Started",
+    "CONTACT": "Contact Doctor"
+  }
+}
