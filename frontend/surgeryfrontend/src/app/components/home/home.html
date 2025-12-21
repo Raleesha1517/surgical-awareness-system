@@ -1,21 +1,15 @@
 
 <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
       <h1 style="font-weight: 500">Febrile Seizure</h1>
-      <h1 tyle="font-weight: 500">උණ වලිප්පුව</h1>
-      <h1 tyle="font-weight: 100">காய்ச்சல் வலிப்பு</h1>
-      <h2>Select Your Language | ඔබේ භාෂාව තෝරන්න | உங்கள் மொழியைத் தேர்ந்தெடுக்கவும் </h2>
+      <h1 style="font-weight: 500">උණ වලිප්පුව</h1>
+      <h1 style="font-weight: 100">காய்ச்சல் வலிப்பு</h1>
+      <h2 class="h2">Select Your Language | ඔබේ භාෂාව තෝරන්න | உங்கள் மொழியைத் தேர்ந்தெடுக்கவும் </h2>
       <ul style="list-style: none; padding: 0; margin: 0; display: flex;">
-
-        <li style="margin-right: 10px;">
-        </li>
-     
-
         <li style="margin-right: 10px;"><button (click)="changeLang('en')">English</button></li>
-        <li style="margin-right: 10px;" ><button (click)="changeLang('si')">සිංහල</button></li>
-        <li><button (click)="changeLang('ta')">தமிழ்</button></li>
+        <li style="margin-right: 10px;"><button (click)="changeLang('si')">සිංහල</button></li>
+        <li style="margin-right: 10px;"><button (click)="changeLang('ta')">தமிழ்</button></li>
       </ul>
-
-      <h1>{{ 'TITLE' | translate }}</h1>
+      <h1 id="translate">{{ 'TITLE' | translate }}</h1>
       <p>{{ 'DESCRIPTION' | translate }}</p>
       
       <img src="assets/img/mother.png" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150">
