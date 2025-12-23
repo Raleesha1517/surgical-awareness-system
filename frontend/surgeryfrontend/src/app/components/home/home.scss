@@ -15,6 +15,7 @@
   height: 100%;
   object-fit: cover; /* scales and crops the image */
   object-position: center;
+  filter: blur(5px); 
 }
 
 /* Navbar floating in the center */
