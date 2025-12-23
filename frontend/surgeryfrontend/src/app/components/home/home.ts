@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TranslateService, TranslatePipe } from '@ngx-translate/core';
+import { TranslateDirective, TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',

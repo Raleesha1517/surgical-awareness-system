@@ -30,8 +30,8 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
-            ]
+                "src/styles.scss"]
+            
           },
           "configurations": {
             "production": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "528e5b7a-43fc-4d53-8afa-cb7da66f0735"
   }
 }

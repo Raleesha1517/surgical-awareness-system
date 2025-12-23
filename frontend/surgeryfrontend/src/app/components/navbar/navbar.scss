@@ -1,0 +1,74 @@
+/* Navbar styling */
+.navbar-custom {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  padding: 0.5rem 1.5rem;
+  position: relative;
+
+  .nav-link {
+    color: #333;
+    font-weight: 500;
+
+    &:hover {
+      color: #006b7a;
+    }
+  }
+
+  /* Logo styling */
+  .navbar-logo {
+    height: 40px; /* default desktop height */
+    transition: all 0.3s;
+  }
+
+  /* Toggle button */
+  .navbar-toggler {
+    border: none;
+    padding: 0.25rem 0.5rem;
+
+    .navbar-toggler-icon {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  /* Button group */
+  .btn-group .btn {
+    font-weight: 500; 
+    background-color: #006b7a; 
+    color: #fff; 
+    border: none; 
+
+    &:hover {
+      background-color: #004d57; 
+      color: #fff;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 426px) {
+  .navbar-logo {
+    height: 30px !important;
+    // width: 3px !important;
+
+  }
+
+  .navbar-toggler {
+    padding: 0.2rem 0.4rem;
+
+    .navbar-toggler-icon {
+      width: 18px;
+      height: 18px; /* smaller toggle icon */
+    }
+  }
+
+  .btn-group {
+    flex-wrap: wrap; /* keep buttons visible if space is tight */
+    gap: 5px;
+  }
+}
