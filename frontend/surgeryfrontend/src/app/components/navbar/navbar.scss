@@ -1,0 +1,33 @@
+.navbar-custom {
+  background-color: #ffffff; /* white background */
+  border-radius: 25px;       /* highly rounded */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* shadow */
+  padding: 0.5rem 1.5rem;
+  position: relative;
+}
+
+.navbar-custom .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #007bff;
+}
+
+.btn-group .btn {
+  font-weight: 500; 
+  background-color: #006b7a; /* red color */
+  color: #fff; /* white text */
+  border: none; /* optional, remove border */
+
+  &:hover {
+    background-color: #006b7a; /* dark red on hover */
+    color: #fff;
+  }
+
+  &:focus {
+    box-shadow: none; /* remove default focus shadow if desired */
+  }
+}
+

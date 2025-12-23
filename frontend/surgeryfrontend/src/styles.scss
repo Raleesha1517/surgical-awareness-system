@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+/* Vendor CSS */
+@import url("../public/assets/vendor/bootstrap/css/bootstrap.min.css");
+@import url("../public/assets/vendor/bootstrap-icons/bootstrap-icons.css");
+@import url("../public/assets/vendor/aos/aos.css");
+@import url("../public/assets/vendor/fontawesome-free/css/all.min.css");
+@import url("../public/assets/vendor/swiper/swiper-bundle.min.css");
+@import url("../public/assets/vendor/glightbox/css/glightbox.min.css");
+
+/* Main CSS File */
+@import url("../public/assets/css/main.css");

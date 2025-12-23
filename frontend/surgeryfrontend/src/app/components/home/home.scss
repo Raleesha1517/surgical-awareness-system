@@ -1,0 +1,29 @@
+/* Full-page homepage background */
+.homepage-bg {
+  position: fixed; /* fills viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* full viewport height */
+  background-image: url('/images/1.jpg'); /* your image */
+  background-size: cover; /* image covers entire area */
+  background-position: center; /* center the image */
+  z-index: -1; /* behind navbar and content */
+}
+
+/* Navbar floating */
+app-navbar {
+  display: block;
+  margin: 20px auto; /* center horizontally */
+  width: 90%; /* smaller than full width to show sides */
+  max-width: 1200px;
+}
+
+/* Homepage content */
+.homepage-content {
+  padding-top: 200px; /* space below navbar */
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  position: relative;
+}

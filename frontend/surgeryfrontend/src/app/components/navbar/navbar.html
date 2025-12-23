@@ -1,1 +1,37 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg navbar-custom mx-3 my-3" style="position: relative;">
+  <div class="container-fluid">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+      <img src="/images/3.png" alt="Bootstrap" width="240" height="40">
+    </a>
+
+    <!-- Toggle button -->
+    <button class="navbar-toggler" type="button" (click)="toggleCollapse()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div [ngClass]="{'collapse navbar-collapse show': isCollapsed, 'collapse navbar-collapse': !isCollapsed}">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" (click)="closeCollapse()">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about" (click)="closeCollapse()">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/services" (click)="closeCollapse()">Services</a>
+        </li>
+      </ul>
+
+      <!-- Language bupngtons -->
+      <div class="d-flex align-items-center">
+        <div class="btn-group">
+          <button class="btn btn-outline-primary px-3" (click)="changeLang('en')">EN</button>
+          <button class="btn btn-outline-primary px-3" (click)="changeLang('si')">SI</button>
+          <button class="btn btn-outline-primary px-3" (click)="changeLang('ta')">TA</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
