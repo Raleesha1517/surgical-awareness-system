@@ -3,8 +3,7 @@ import { TranslateDirective, TranslatePipe, TranslateService } from '@ngx-transl
 
 @Component({
   selector: 'app-home',
-  imports: [TranslatePipe,
-    TranslateDirective],
+  imports: [TranslatePipe],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
