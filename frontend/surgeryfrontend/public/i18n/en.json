@@ -1,6 +1,7 @@
 {
-  "TITLE": "Prehabilitation Awareness",
-  "DESCRIPTION": "This application provides information to prepare patients before surgery.",
+  "TITLE1": "Getting Ready for Surgery",
+  "TITLE2": "A Guide to Prehabilitation",
+  "DESCRIPTION": "Prehabilitation is a structured approach that optimizes a patient’s physical, nutritional, and psychological health prior to surgery. Our goal is to empower patients with accessible, consistent, and reliable preoperative guidance to support better surgical recovery.",
   "BUTTON": {
     "START": "Get Started",
     "CONTACT": "Contact Doctor"

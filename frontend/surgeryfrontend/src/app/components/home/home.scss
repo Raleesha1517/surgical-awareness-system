@@ -15,6 +15,7 @@
   height: 100%;
   object-fit: cover; /* scales and crops the image */
   object-position: center;
+  filter: blur(5px); 
 }
 
 /* Navbar floating in the center */
@@ -32,4 +33,8 @@ app-navbar {
   color: #fff;
   position: relative;
   z-index: 1;
+}
+#hero {
+  background-color: transparent !important;
+  
 }
