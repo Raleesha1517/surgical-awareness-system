@@ -38,3 +38,38 @@ button {
 }
 
 
+.lang-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.lang-popup {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  width: 300px;
+}
+
+.lang-popup .logo {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.lang-popup button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logo{
+  height: 20px;
+  width: 50px;
+}
