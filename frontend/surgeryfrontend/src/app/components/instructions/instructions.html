@@ -1,1 +1,71 @@
-<p>instructions works!</p>
+<!-- Instructions Page -->
+<div class="container my-5">
+
+  <!-- Page Title -->
+  <div class="text-center mb-5">
+    <h1 class="fw-semibold text-primary">
+      {{ 'INSTRUCTIONS.TITLE' | translate }}
+    </h1>
+    <p class="text-muted mt-2">
+      {{ 'DESCRIPTION' | translate }}
+    </p>
+  </div>
+
+  <!-- What is this App -->
+  <div class="card shadow-sm mb-4 border-0">
+    <div class="card-body">
+      <h4 class="card-title text-info mb-3">
+        {{ 'INSTRUCTIONS.WHAT_IS_THIS.TITLE' | translate }}
+      </h4>
+      <p class="card-text">
+        {{ 'INSTRUCTIONS.WHAT_IS_THIS.DESCRIPTION' | translate }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Why use this App -->
+  <div class="card shadow-sm mb-4 border-0">
+    <div class="card-body">
+      <h4 class="card-title text-info mb-3">
+        {{ 'INSTRUCTIONS.WHY_USE.TITLE' | translate }}
+      </h4>
+      <p class="card-text">
+        {{ 'INSTRUCTIONS.WHY_USE.DESCRIPTION' | translate }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Purpose -->
+  <div class="card shadow-sm mb-4 border-0">
+    <div class="card-body">
+      <h4 class="card-title text-info mb-3">
+        {{ 'INSTRUCTIONS.PURPOSE.TITLE' | translate }}
+      </h4>
+      <p class="card-text">
+        {{ 'INSTRUCTIONS.PURPOSE.DESCRIPTION' | translate }}
+      </p>
+    </div>
+  </div>
+
+  <!-- What is Included -->
+  <div class="card shadow-sm mb-5 border-0">
+    <div class="card-body">
+      <h4 class="card-title text-info mb-3">
+        {{ 'INSTRUCTIONS.INCLUDES.TITLE' | translate }}
+      </h4>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          {{ 'INSTRUCTIONS.INCLUDES.DESCRIPTION' | translate }}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="text-center">
+    <button class="btn btn-lg btn-primary px-5 py-2">
+      {{ 'BUTTON.START' | translate }}
+    </button>
+  </div>
+
+</div>

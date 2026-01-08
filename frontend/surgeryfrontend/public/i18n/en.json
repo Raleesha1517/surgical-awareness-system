@@ -6,5 +6,27 @@
     "START": "Get Started",
     "CONTACT": "Contact Doctor",
     "INSTRUCTIONS": "Click for App Instructions"
+  },
+  
+  "INSTRUCTIONS": {
+    "TITLE": "App Instructions",
+    "WHAT_IS_THIS": {
+      "TITLE": "What is this App?",
+      "DESCRIPTION": "This Surgery Prehabilitation App is designed to help patients prepare physically, nutritionally, and psychologically before surgery."
+    },
+    "WHY_USE": {
+      "TITLE": "Why You Should Use This App",
+      "DESCRIPTION": "Using this app ensures you are better prepared for surgery, which can lead to faster recovery, reduced complications, and improved overall health."
+    },
+    "PURPOSE": {
+      "TITLE": "Purpose of the App",
+      "DESCRIPTION": "The purpose of this app is to provide structured guidance and support to patients for optimal pre-surgery preparation."
+    },
+    "INCLUDES": {
+      "TITLE": "What This App Includes",
+      "DESCRIPTION": "The app includes exercise plans, nutritional advice, psychological tips, reminders, and educational resources to support your prehabilitation journey."
+    }
   }
+
 }
+
