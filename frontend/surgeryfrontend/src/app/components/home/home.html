@@ -3,30 +3,35 @@
 </div>
 
 <div style="padding: 20px">
-      <h2 style="color: #006b7a; font-family: poppins; font-weight: 500; margin-right: 55%;">{{ 'TITLE1' | translate }}</h2>
-      <h1 style="color: #006b7a; font-family: poppins; font-weight: 500; margin-right: 55%;">{{ 'TITLE2' | translate }}</h1>
-      <p style="color: #878787; font-family: inter;">{{ 'DESCRIPTION' | translate }}</p>
+      <h4 style="color: #006b7a; font-family: poppins; font-weight: 500; margin-right: 35%;">{{ 'TITLE1' | translate }}</h4>
+      <h1 style="color: #006b7a; font-family: poppins; font-weight: 500; margin-right: 50%;">{{ 'TITLE2' | translate }}</h1>
+      <p  class="description">{{ 'DESCRIPTION' | translate }}</p>
 
       <hr>
 
-      <button (click)="changeLang('en')">English</button>
+      <div class="center-button">
+        <button class="instruction-btn">
+          {{ 'BUTTON.INSTRUCTIONS' | translate }}
+        </button>
+      </div>
+
+
+      <!-- <button (click)="changeLang('en')">English</button>
       <button (click)="changeLang('si')">සිංහල</button>
-      <button (click)="changeLang('ta')">தமிழ்</button>
+      <button (click)="changeLang('ta')">தமிழ்</button> -->
     </div>
 
-    <button>{{ 'BUTTON.START' | translate }}</button>
-<button>{{ 'BUTTON.CONTACT' | translate }}</button>
+    <!-- <button>{{ 'BUTTON.START' | translate }}</button>
+    <button>{{ 'BUTTON.CONTACT' | translate }}</button> -->
 
-<!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+  <!-- Hero Section -->
+    <!-- <section id="hero" class="hero section dark-background">
               <div class="features-wrapper">
                 <div class="row gy-4">
                 </div>
               </div>
-
-          
-       
-    </section><!-- /Hero Section -->
+    </section> -->
+    <!-- /Hero Section -->
 
 
 

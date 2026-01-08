@@ -4,6 +4,7 @@
   "DESCRIPTION": "Prehabilitation is a structured approach that optimizes a patient’s physical, nutritional, and psychological health prior to surgery. Our goal is to empower patients with accessible, consistent, and reliable preoperative guidance to support better surgical recovery.",
   "BUTTON": {
     "START": "Get Started",
-    "CONTACT": "Contact Doctor"
+    "CONTACT": "Contact Doctor",
+    "INSTRUCTIONS": "Click for App Instructions"
   }
 }

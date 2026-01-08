@@ -38,3 +38,39 @@ app-navbar {
   background-color: transparent !important;
   
 }
+
+/* Sinhala */
+body.si h1,
+body.si h2,
+body.si p,
+body.si button {
+  font-family: 'Noto Sans Sinhala', sans-serif !important;
+}
+
+.description{
+  color: #ffffff; 
+  font-family: poppins;
+  background-color: #006b7a;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.instruction-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #006b7a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.instruction-btn:hover {
+  background-color: #00545f;
+}
