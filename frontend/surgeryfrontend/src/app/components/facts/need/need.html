@@ -1,0 +1,43 @@
+<div class="container my-5">
+  <div class="card shadow-lg border-0 rounded-4">
+    <div class="card-body p-4 p-md-5">
+
+      <h2 class="fw-bold text-primary mb-3">
+        {{ 'PREHAB.TITLE' | translate }}
+      </h2>
+
+      <p class="fs-5 text-muted">
+        {{ 'PREHAB.DESCRIPTION' | translate }}
+      </p>
+
+      <hr class="my-4">
+
+      <h5 class="fw-semibold mb-3">
+        {{ 'PREHAB.BENEFITS.INTRO' | translate }}
+      </h5>
+
+      <ul class="list-group list-group-flush mb-4">
+        <li
+          class="list-group-item fs-6"
+          *ngFor="let point of ('PREHAB.BENEFITS.POINTS' | translate)"
+        >
+          ✅ {{ point }}
+        </li>
+      </ul>
+
+      <h5 class="fw-semibold mb-3 text-danger">
+        {{ 'PREHAB.COMPLICATIONS_TITLE' | translate }}
+      </h5>
+
+      <ul class="list-group list-group-flush">
+        <li
+          class="list-group-item fs-6"
+          *ngFor="let comp of ('PREHAB.COMPLICATIONS' | translate)"
+        >
+          ⚠️ {{ comp }}
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

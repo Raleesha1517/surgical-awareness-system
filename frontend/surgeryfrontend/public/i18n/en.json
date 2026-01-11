@@ -26,6 +26,29 @@
       "TITLE": "What This App Includes",
       "DESCRIPTION": "The app includes exercise plans, nutritional advice, psychological tips, reminders, and educational resources to support your prehabilitation journey."
     }
+  },
+
+  "PREHAB": {
+    "TITLE": "Why Prepare for Major Surgery?",
+    "DESCRIPTION": "Major surgery places increased demands on all body systems. This program helps prepare your body and mind for surgery.",
+    "BENEFITS": {
+      "INTRO": "This program will:",
+      "POINTS": [
+        "Improve your physical and mental strength before and after surgery",
+        "Help you cope better with surgery-related stress",
+        "Speed up recovery",
+        "Reduce complications",
+        "Help you return home earlier"
+      ]
+    },
+    "COMPLICATIONS_TITLE": "This program may help reduce:",
+    "COMPLICATIONS": [
+      "Chest infections",
+      "Blood clots in leg veins",
+      "Constipation",
+      "Wound infections",
+      "Muscle weakness and wasting"
+    ]
   }
 
 }
