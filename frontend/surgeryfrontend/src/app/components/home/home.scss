@@ -48,11 +48,16 @@ body.si button {
 }
 
 .description{
-  color: #ffffff; 
+  color: #5b959d; 
   font-family: poppins;
-  background-color: #006b7a;
+  background-color: rgba(0, 107, 122, 0.15);
   padding: 7px;
   border-radius: 10px;
+}
+.description {
+  display: inline-block;   /* prevents full-width expansion */
+  margin: 0 auto;          /* centers horizontally */
+  text-align: center;      /* centers text */
 }
 
 .center-button {
