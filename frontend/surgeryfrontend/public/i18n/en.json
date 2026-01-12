@@ -32,19 +32,18 @@
     "TITLE": "Why Prepare for Major Surgery?",
     "DESCRIPTION": "Major surgery places increased demands on all body systems. This program helps prepare your body and mind for surgery.",
     "BENEFITS": {
-      "INTRO": "This program will:",
+      "INTRO": "Improve your physical and mental strength to cope before and after surgery, It will,",
       "POINTS": [
-        "Improve your physical and mental strength before and after surgery",
         "Help you cope better with surgery-related stress",
         "Speed up recovery",
         "Reduce complications",
-        "Help you return home earlier"
+        "Help you go home early"
       ]
     },
-    "COMPLICATIONS_TITLE": "This program may help reduce:",
+    "COMPLICATIONS_TITLE": "The Following complication of surgery may be reduced by this program",
     "COMPLICATIONS": [
       "Chest infections",
-      "Blood clots in leg veins",
+      "Blood clot forming in leg veins",
       "Constipation",
       "Wound infections",
       "Muscle weakness and wasting"
