@@ -47,12 +47,15 @@ body.si button {
   font-family: 'Noto Sans Sinhala', sans-serif !important;
 }
 
-.description{
-  color: #ffffff; 
-  font-family: poppins;
-  background-color: #006b7a;
-  padding: 7px;
+.description {
+  display: inline-block;
+  color: #5b959d;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(0, 107, 122, 0.15);
+  padding: 7px clamp(20px, 10vw, 150px);
   border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .center-button {
