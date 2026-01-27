@@ -1,0 +1,75 @@
+<div class="container my-5">
+
+  <!-- Page Title -->
+  <div class="text-center mb-4">
+    <h2 class="fw-semibold text-primary">
+      {{ 'CONTENT.TITLE' | translate }}
+    </h2>
+    <p class="text-muted">
+      {{ 'CONTENT.SUBTITLE' | translate }}
+    </p>
+  </div>
+
+  <!-- Content Card -->
+  <div class="card shadow-sm border-0">
+    <div class="card-body">
+
+      <!-- Main Item -->
+      <div class="list-group mb-3">
+        <a
+          routerLink="/need"
+          routerLinkActive="active"
+          class="list-group-item list-group-item-action fw-medium"
+        >
+          {{ 'CONTENT.WHY_PREHAB' | translate }}
+        </a>
+      </div>
+
+      <!-- Sections -->
+      <h5 class="text-secondary mb-3">
+        {{ 'CONTENT.SECTIONS' | translate }}
+      </h5>
+
+      <div class="list-group">
+
+        <a routerLink="/breathing" routerLinkActive="active"
+           class="list-group-item list-group-item-action">
+          🫁 {{ 'CONTENT.BREATHING' | translate }}
+        </a>
+
+        <a routerLink="/physical" routerLinkActive="active"
+           class="list-group-item list-group-item-action">
+          🏃 {{ 'CONTENT.PHYSICAL' | translate }}
+        </a>
+
+        <a routerLink="/diet" routerLinkActive="active"
+           class="list-group-item list-group-item-action">
+          🥗 {{ 'CONTENT.DIET' | translate }}
+        </a>
+
+        <a routerLink="/hygeine" routerLinkActive="active"
+           class="list-group-item list-group-item-action">
+          🧼 {{ 'CONTENT.HYGIENE' | translate }}
+        </a>
+
+        <a routerLink="/well_being" routerLinkActive="active"
+           class="list-group-item list-group-item-action">
+          🧠 {{ 'CONTENT.PSYCHOLOGICAL' | translate }}
+        </a>
+
+        <a routerLink="/other" routerLinkActive="active"
+           class="list-group-item list-group-item-action">
+          💊 {{ 'CONTENT.OTHER_MEDICATIONS' | translate }}
+        </a>
+
+        <a routerLink="/after_surgery" routerLinkActive="active"
+           class="list-group-item list-group-item-action">
+          🏥 {{ 'CONTENT.AFTER_SURGERY' | translate }}
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>

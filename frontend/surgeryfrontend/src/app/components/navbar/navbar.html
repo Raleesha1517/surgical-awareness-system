@@ -5,10 +5,30 @@
       <img src="/images/3.png" alt="Logo" class="navbar-logo">
     </a>
 
-    <!-- Toggle button -->
-    <button class="navbar-toggler" type="button" (click)="toggleCollapse()">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <!-- Mobile Previous / Next buttons -->
+<!-- <div class="d-flex align-items-center d-lg-none me-2"
+     *ngIf="currentIndex !== -1">
+
+  <button
+    class="btn btn-sm btn-outline-secondary me-1"
+    (click)="goPrevious()"
+    [disabled]="currentIndex === 0">
+    ◀ Next
+  </button>
+
+  <button
+    class="btn btn-sm btn-outline-primary"
+    (click)="goNext()"
+    [disabled]="currentIndex === steps.length - 1">
+    ▶ Previous
+  </button>
+</div> -->
+
+<!-- Toggle button -->
+<button class="navbar-toggler" type="button" (click)="toggleCollapse()">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
 
     <!-- Navbar links and language buttons -->
     <div [ngClass]="{'collapse navbar-collapse show': isCollapsed, 'collapse navbar-collapse': !isCollapsed}">
@@ -30,6 +50,22 @@
         </li>
       </ul>
 
+      <div class="d-none d-lg-flex align-items-center me-3 nav-step-buttons"
+     *ngIf="currentIndex !== -1">
+
+        <button class="btn btn-outline-secondary me-2"
+                (click)="goPrevious()"
+                [disabled]="currentIndex === 0">
+          ◀ Previous
+        </button>
+
+        <button class="btn btn-outline-primary"
+                (click)="goNext()"
+                [disabled]="currentIndex === steps.length - 1">
+          Next ▶
+        </button>
+      </div>
+
       <!-- Language buttons always on same line -->
       <div class="d-flex align-items-center ms-lg-3">
         <div class="btn-group">
@@ -41,3 +77,39 @@
     </div>
   </div>
 </nav>
+
+<!-- Mobile Step Navigation -->
+<div class="mobile-step-bar d-lg-none" *ngIf="currentIndex !== -1">
+
+  <!-- Previous Button -->
+  <button
+    class="step-btn prev-btn"
+    (click)="goPrevious()"
+    [disabled]="currentIndex === 0">
+    ← Previous
+  </button>
+
+  <!-- Jump To Dropdown (pure Angular) -->
+  <div class="step-dropdown" [class.open]="isDropdownOpen">
+    <button class="step-btn jump-btn" (click)="toggleDropdown()">
+      Jump To ▼
+    </button>
+    <div class="dropdown-menu" *ngIf="isDropdownOpen">
+      <button
+        class="dropdown-item"
+        *ngFor="let step of steps"
+        (click)="jumpTo(step)">
+        {{ displayNames[step] }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Next Button -->
+  <button
+    class="step-btn next-btn"
+    (click)="goNext()"
+    [disabled]="currentIndex === steps.length - 1">
+    Next →
+  </button>
+
+</div>
