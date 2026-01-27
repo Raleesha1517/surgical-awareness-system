@@ -8,9 +8,12 @@ import { Diet } from './components/facts/diet/diet';
 import { Hygeine } from './components/facts/hygeine/hygeine';
 import { WellBeing } from './components/facts/well-being/well-being';
 import { Other } from './components/facts/other/other';
+import { Content } from './components/facts/content/content';
+import { AfterSurgery } from './components/facts/after-surgery/after-surgery';
 
 export const routes: Routes = [
         { path: '', component: Home },
+        { path: 'content', component: Content },
         { path: 'instructions', component: Instructions },
         { path: 'need', component: Need },
         { path: 'physical', component: PhysicalExercises },
@@ -19,4 +22,5 @@ export const routes: Routes = [
         { path: 'hygeine', component: Hygeine },
         { path: 'well_being', component: WellBeing },
         { path: 'other', component: Other },
+        { path: 'after_surgery', component: AfterSurgery },
 ];

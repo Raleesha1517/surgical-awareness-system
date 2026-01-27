@@ -48,7 +48,19 @@
       "Wound infections",
       "Muscle weakness and wasting"
     ]
+  },
+  "CONTENT": {
+    "TITLE": "Content",
+    "SUBTITLE": "Navigate through the Prehabilitation Program",
+    "WHY_PREHAB": "Why Prehabilitation is Important",
+    "SECTIONS": "Program Sections",
+    "BREATHING": "Breathing Exercises",
+    "PHYSICAL": "Physical Exercises",
+    "DIET": "Diet and Nutrition",
+    "HYGIENE": "Personal Hygiene",
+    "PSYCHOLOGICAL": "Psychological Well-being",
+    "OTHER_MEDICATIONS": "Other Medications",
+    "AFTER_SURGERY": "After Surgery Care"
   }
-
 }
 
