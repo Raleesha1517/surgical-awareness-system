@@ -1,0 +1,93 @@
+.breathing-wrapper {
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+  color: #333;
+}
+
+/* Section header */
+.section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-header h2 {
+  color: #006b7a;
+  font-weight: 600;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #006b7a;
+  margin: 0.5rem auto 0;
+  border-radius: 10px;
+}
+
+/* Topic cards */
+.topics {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.topic-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Topic title */
+.topic-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.topic-number {
+  background-color: #006b7a;
+  color: #ffffff;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topic-title h3 {
+  color: #006b7a;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Content */
+.topic-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.content-line {
+  padding-left: 0.5rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+  .breathing-wrapper {
+    padding: 1rem;
+  }
+
+  .topic-card {
+    padding: 1rem;
+  }
+
+  .topic-title h3 {
+    font-size: 1rem;
+  }
+}

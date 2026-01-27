@@ -61,6 +61,52 @@
     "PSYCHOLOGICAL": "Psychological Well-being",
     "OTHER_MEDICATIONS": "Other Medications",
     "AFTER_SURGERY": "After Surgery Care"
+  },
+  
+   "breathing": {
+    "section": "Breathing exercise",
+    "topics": [
+      {
+        "title": "Breathing exercise",
+        "content": [
+          "Breathing exercise",
+          "This will improve transfer of oxygen from your lungs to the blood and also help remove phlegm from your airways.",
+          "Caution: Stop smoking! Breathing exercises:",
+          "Deep breathing exercises and coughing",
+          "Regular steam inhalation",
+          "Using the incentive spirometer"
+        ]
+      },
+      {
+        "title": "Deep breathing exercises and coughing",
+        "content": [
+          "Deep breathing exercises and coughing ",
+          "You should perform these exercises in the seated position with a straight back or in the standing position.Keep your arnms on the sides of your lower chest.",
+          "Take slow deep breaths through your nose and hold your breath as long as you can (at least 10 seconds) and slowly breathe out through tightened lips - repeat this 10 times",
+          "Next,take a breathe and breathe out as quickly as possible - repeat this another 10 times.",
+          "Finally,perform deep coughs - 3 times.",
+          "Do the above at least 4 times per day or more if you can"
+        ]
+      },
+      {
+        "title": "Regular steam inhalation",
+        "content": [
+          "Regular steam inhalation",
+          "Prepare a pot of boiling water which produces steam.Do inhalation exercises as shown below while inhaling stream through your nose or mouth. Perform this exercise twice a day."
+        ]
+      },
+      {
+        "title": "Using the incentive spirometer",
+        "content": [
+          "Using the incentive spirometer",
+          "You can perform this exercise in the seated position.Hold the incentive spirometer in the upright position with your left hand.",
+          "Keep the mouth piece inside your mouth and hold it with your pursed lips",
+          "Now breathe in as fast and deep as you can till the plastic spheres move up.",
+          "Try to hold these up as long as you can.By increasing the effort, you will be able to move all three spheres and hold it for longer periods.",
+          "Do this exercise at least 10 times per hour, 4 times per day"
+        ]
+      }
+    ]
   }
 }
 

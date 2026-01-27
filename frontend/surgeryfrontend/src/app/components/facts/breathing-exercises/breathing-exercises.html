@@ -1,4 +1,44 @@
-<p>Breathing exercise</p>
+<section class="breathing-wrapper">
+
+  <!-- Section Header -->
+  <div class="section-header">
+    <h2>{{ 'breathing.section' | translate }}</h2>
+    <div class="underline"></div>
+  </div>
+
+  <!-- Topics -->
+  <div class="topics">
+
+    <div
+      class="topic-card"
+      *ngFor="let topic of ('breathing.topics' | translate); let i = index"
+    >
+
+      <!-- Topic Title -->
+      <div class="topic-title">
+        <span class="topic-number">{{ i + 1 }}</span>
+        <h3>{{ topic.title }}</h3>
+      </div>
+
+      <!-- Topic Content -->
+      <div class="topic-content">
+        <div
+          class="content-line"
+          *ngFor="let line of topic.content"
+        >
+          {{ line }}
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- <p>Breathing exercise</p>
 <p>This will improve transfer of oxygen from your lungs to the blood and also help remove phlegm from your airways.</p>
 <P>Caution: Stop smoking! Breathing exercises:</P>  
 <p>Deep breathing exercises and coughing</p>
@@ -126,4 +166,4 @@ Incentive spirometer-ஐ நேராக (upright position) உங்கள் �
 <p>
 இந்த பயிற்சியை ஒரு மணி நேரத்திற்கு குறைந்தது 10 முறை,  
 ஒரு நாளில் 4 முறை செய்யுங்கள்.
-</p>
+</p> -->
